@@ -1,0 +1,227 @@
+// Chinese(zh) localization of ps.waltheri.net
+// Localized name: 中文
+
+{
+	// Top navigation
+	nav: {
+		pattern_search: "棋谱模式搜索",
+		database: "浏览数据库",
+		about: "关于",
+		facebook: "Facebook 页面"
+	},
+	
+	// tooltips for blue buttons in top right corner
+	menu: {
+		settings: "设置",
+		share: "分享本次搜索",
+		help: "点击此处寻求支持",
+	},
+	
+	// selection group
+	selection: {
+		title: "范围:",
+		full: "全棋盘",
+		around: "棋子周围",
+		tooltips: {
+			full: "选择全棋盘范围",
+			around: "选择棋子周围"
+		}
+	},
+	
+	// filter (search in) group
+	filter: {
+		title: "搜索范围:",
+		all: "所有棋谱",
+		modern: "现代棋谱",
+		new: "最新棋谱",
+		tooltips: {
+			button: "搜索范围",
+			all: "在整个数据库中搜索",
+			modern: "从2000年以后对局谱中搜索",
+			new: "从1年以内的对局谱中搜索"
+		}
+	},
+	
+	// big blue control buttons
+	control: {
+		title: "搜索控制:",
+		clear: "清除",
+		undo: "上一次",
+		redo: "下一次",
+		search_w: "搜索&nbsp;白",
+		search_b: "搜索&nbsp;黑",
+		tooltips: {
+			clear: "清除本步",
+			undo: "上一次搜索",
+			redo: "下一次搜索",
+			search_w: "寻找白棋连续招法",
+			search_b: "寻找黑棋连续招法",
+			auto: "自动搜索",
+			stop: "停止搜索"
+		}
+	},
+	
+	// continuation block
+	continuations: {
+		title: "寻找连续招法",
+		caption: "%{games} 职业棋谱在 %{time} 秒内完成搜索",
+		games: "棋谱数",
+		winrate: "胜率"
+	},
+	
+	// matching games block
+	games: {
+		title: "棋谱匹配",
+		caption: "目前 %{smart_count} 棋谱匹配显示中 在 %{games} 棋谱中 |||| 目前 %{smart_count} 棋谱匹配显示中 在 %{games} 棋谱中",
+		year: "年",
+		tip: "选择上面棋谱进行查看",
+		black: "黑",
+		white: "白",
+		back: "回到搜索界面"
+	},
+	
+	// statistics block
+	statistics: {
+		title: "单步统计",
+		caption: "针对目前这一步的更高级统计",
+		probability: "胜率",
+		popularity: "人气指标",
+		black_wins: "就此步棋黑棋赢了 %{count} 对局, |||| 就此步棋黑棋赢了 %{count} 对局,", // this string and the 'statistics.white_wins' string are rendered in row (divided by space)
+		white_wins: "白棋赢了 %{count} 对局. |||| 白棋赢了 %{count} 对局.",
+		popularity_desc: "本图标显示此步棋在历年的人气指标.",
+		lost: "输的对局",
+		won: "赢得对局",
+		unknown: "未知结果",
+		games: "已查看对局"
+	},
+	
+	// kifu player and info
+	player: {
+		title: "重播棋谱",
+		edit_mode: "可编辑模式",
+		score_mode: "点目模式",
+		coordinates: "显示棋谱坐标",
+		about: "关于",
+		about_desc: "此棋谱基于GOOL技术开发完成，方便广大围棋爱好者使用和参考学习。怀旧空吟闻笛赋，到乡翻似烂柯人！", // write some pretty advert for me in your language :-)
+		game_info: "棋谱信息",
+		date: "日期",
+		event: "赛事",
+		komi: "贴目",
+		result: "对局结果",
+		tooltips: {
+			first: "第一步",
+			previous: "上一步",
+			move_number: "目前手数",
+			next: "下一步",
+			last: "最后一步",
+			menu: "菜单"
+		},
+	},
+	
+	// settings modal dialog 
+	settings: {
+		title: "设置",
+		board: "棋盘:",
+		coordinates: "显示棋盘的坐标",
+		plots: "图表:",
+		continuation_plot: "显示连续招法的图表",
+		language: "语言:",
+		language_auto: "自动检测",
+		other: "其他:",
+		sound: "当下一步棋时发出声音",
+		litemode: "轻便模式",
+		litemode_desc: "(为更好效果)",
+		save: "保存本变化"
+	},
+	
+	// share modal dialog
+	share: {
+		title: "分享本次搜索",
+		text: "本次棋谱模式的搜索",
+		link: "本次搜索的链接地址:",
+		html: "HTML:",
+		social: "在社交平台上分享:",
+		facebook: "在 Facebook 上分享",
+		twitter: "在 Twitter 上分享",
+		twitter_text: "查阅此步!",
+		copy_confirm: "已复制!",
+		error: "在分享过程中出现一些问题."
+	},
+	
+	// help popovers
+	help: {
+		selection: {
+			title: '选择模式',
+			content: '您有三个选择。 <strong>全棋盘</strong> 按钮用于选择整个棋盘范围, 这样在棋盘的每一个区域和子都会考虑进来。 <strong>棋子周围</strong> 按钮用于选择棋子周围区域。当您只是在研究局部定式的时候非常有用。第三个选择是 <strong>手动选择</strong> - 你可以按需选择棋谱任何部分，只需通过鼠标拖拽区域即可。'
+		},
+		filter: {
+			title: '特定搜索',
+			content: '您以将搜索限制在不同的时间范围。如果您选择<strong>现代棋谱</strong>, 会在21世纪以后的棋谱中搜索。 而选项<strong>最新棋谱</strong>则为1年内的棋谱范围.'
+		},
+		board: {
+			title: '选择棋步',
+			content: '通过在棋谱中 <strong>点击</strong> ，您可以按照需要选择棋步. 在每一次点击和模式搜索之后，从职业对局中找到关于此步的所有结果。 您也可以通过按住 <kbd>shift</kbd> (或 <kbd>ctrl</kbd>) 键来即时插入黑棋（或白棋）.'
+		},
+		continuations: {
+			title: '寻找连续招法',
+			content: '在本表中您可以看到一系列的在职业对局中的连续招法. 您也可以看到一些相关统计以及胜率越高的下法。'
+		},
+		games: {
+			title: '匹配对局',
+			content: '<p>在本表中您可以看到一系列包含被搜索步的棋谱，通过点击来看到实际对局中的这一步情况. 从而您可以通过鼠标滚轮重播此棋谱， 或者通过双击小棋谱显示在大棋谱中. 考虑到服务器效能，最多可显示50个棋谱。</p><p>现在就尝试在右上角点击 %{icon} .</p>'
+		},
+		statistics: {
+			title: '统计',
+			content: '<p>在本列中你可以看到当前步的所有变化统计数据.</p><p>现在就尝试在右上角点击 %{icon} .</p>'
+		},
+		games_button: {
+			title: '匹配对局',
+			content: '点击此按钮来看匹配的对局，您也可以重播这些对局.'
+		},
+		control: {
+			title: "控制按钮",
+			clear: "清除棋盘 (所有之前搜索记录都会丢失)",
+			undo: "获得上一次搜索 (undo)",
+			redo: "获得下一次搜索 (redo)",
+			search_w: "寻找白棋连续招法以及匹配对局",
+			search_b: "寻找黑棋连续招法",
+			auto: "启动/取消自动搜索. 如果本状态启动，则在每一步时都会自动实行搜索. 如果您只希望在棋谱上尝试您自己的变化，那么可以取消本状态。"
+		},
+		share: {
+			title: '分享您的搜索',
+			content: '如果您点击此按钮，您本次搜索会保存并可分享在各个社交平台中.'
+		},
+		fb_like: {
+			title: '我喜欢',
+			content: '如果您喜欢本棋谱模式搜索服务，可以点击此处.',
+		}
+	},
+	
+	// error messages
+	errors: {
+		timeout: {
+			title: "搜索时间发生超时.",
+			text: "目前服务器可能处于巨大受访压力下，请过段时间再尝试."
+		},
+		offline: {
+			title: "搜索失败.",
+			text: "可能您处于离线状态，请查看您的上网情况。"
+		},
+		other: {
+			title: "搜索失败.",
+			text: "服务器端可能存在一些未知问题，请稍后再试."
+		},
+		javascript: {
+			title: "在应用层出现问题.",
+			text: "如果您希望能够解决此问题，请稍后再试."
+		}
+	},
+	
+	// general stuff used on multiple places
+	general: {
+		close: "关闭",
+		na: "不可行",
+		back: "返回",
+		next: "下一步"
+	}
+}

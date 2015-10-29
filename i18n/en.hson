@@ -1,0 +1,235 @@
+// English(en) localization of ps.waltheri.net
+// Localized name: English
+
+{
+	// Top navigation
+	nav: {
+		pattern_search: "Pattern search",
+		database: "Browse the database",
+		about: "About",
+		facebook: "Facebook page"
+	},
+	
+	// tooltips for blue buttons in top right corner
+	menu: {
+		settings: "Settings",
+		share: "Share current search",
+		help: "Click here, if you don't know what to do",
+		old: "Old version of the pattern search",
+	},
+	
+	// selection group
+	selection: {
+		title: "Selection:",
+		full: "Full Board",
+		around: "Around stones",
+		tooltips: {
+			full: "Full board selection",
+			around: "Selection around placed stones"
+		}
+	},
+	
+	// filter (search in) group
+	filter: {
+		title: "Search in:",
+		all: "All games",
+		modern: "Modern games",
+		new: "New games",
+		tooltips: {
+			button: "Search in",
+			all: "Search in the whole database",
+			modern: "Games from year 2000 and newer",
+			new: "Games not older than a year"
+		}
+	},
+	
+	// big blue control buttons
+	control: {
+		title: "Search control:",
+		clear: "Clear",
+		undo: "Undo",
+		redo: "Redo",
+		search_w: "Search&nbsp;W",
+		search_b: "Search&nbsp;B",
+		tooltips: {
+			clear: "Clear the position",
+			undo: "Previous search",
+			redo: "Next search",
+			search_w: "Find white continuations",
+			search_b: "Find black continuations",
+			auto: "Autosearch",
+			stop: "Stop searching"
+		}
+	},
+	
+	// continuation block
+	continuations: {
+		title: "Found continuations",
+		caption: "%{games} pro games searched in %{time} s",
+		games: "Number of games",
+		winrate: "Winning ratio"
+	},
+	
+	// matching games block
+	games: {
+		title: "Matching games",
+		caption: "Displaying %{smart_count} occurrence from %{games} game |||| Displaying %{smart_count} occurrences from %{games} games",
+		year: "Year",
+		tip: "Select any game above to view it.",
+		black: "Black",
+		white: "White",
+		back: "Back to the search"
+	},
+	
+	// statistics block
+	statistics: {
+		title: "Position statistics",
+		caption: "Advanced statistics about current position",
+		probability: "Winning probability",
+		popularity: "Popularity",
+		black_wins: "In this position black managed to win %{count} game, |||| In this position black managed to win %{count} games,", // this string and the 'statistics.white_wins' string are rendered in row (divided by space)
+		white_wins: "white won %{count} game. |||| white won %{count} games.",
+		popularity_desc: "This plot shows popularity of this position through years.",
+		lost: "Lost games",
+		won: "Won games",
+		unknown: "Unknown result",
+		games: "Games played",
+		popularity_na: "Search again one more time to render the plot. |||| Search again ±%{smart_count} more times to render the plot."
+	},
+	
+	// kifu player and info
+	player: {
+		title: "Replay the game",
+		edit_mode: "Edit mode",
+		score_mode: "Score mode",
+		coordinates: "Toggle coordinates",
+		about: "About this viewer",
+		about_desc: "This sgf / go kifu viewer is based on <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a> library. It is easy to use and you can insert into your website.", // write some pretty advert for me in your language :-)
+		game_info: "Game information",
+		date: "Date",
+		event: "Event",
+		komi: "Komi",
+		result: "Result",
+		score_help: "Click on stones to mark them dead or alive. You can also set and unset territory points by clicking on them. Territories must be completely bordered.",
+		tooltips: {
+			first: "First move",
+			previous: "Previous move",
+			move_number: "Current move number / Jump to move",
+			next: "Next move",
+			last: "Last move",
+			menu: "Menu"
+		},
+	},
+	
+	// settings modal dialog 
+	settings: {
+		title: "Settings",
+		board: "Board:",
+		coordinates: "Display board's coordinates",
+		plots: "Plots:",
+		continuation_plot: "Display continuation plot",
+		language: "Language:",
+		language_auto: "Auto detect",
+		other: "Other:",
+		sound: "Play sound when placing a stone",
+		litemode: "Lite mode",
+		litemode_desc: "(for better performance)",
+		save: "Save changes"
+	},
+	
+	// share modal dialog
+	share: {
+		title: "Share current search",
+		text: "Position on Waltheri's go pattern search",
+		link: "Link of the search:",
+		html: "HTML:",
+		social: "Share on social sites:",
+		facebook: "Share on Facebook",
+		twitter: "Share on Twitter",
+		twitter_text: "Check out this position!",
+		copy_confirm: "Copied!",
+		error: "There is some error and sharing service is not currently working."
+	},
+	
+	// help popovers
+	help: {
+		selection: {
+			title: 'Choose selection mode',
+			content: 'You have three options. <strong>Full board</strong> button selects the whole board, so every field and stone on the board matters. <strong>Around stones</strong> button selects only area around stones. This is useful, when you are looking for joseki. Third option is a <strong>manual selection</strong> - you can select any part of the board you want, just click on the board with mouse and drag.'
+		},
+		filter: {
+			title: 'Specify search',
+			content: 'You can restrict your search to games of certain age. If you select <strong>modern games</strong>, a position will be searched only in pro games played in 21<sup>st</sup> century. Option <strong>new games</strong> narrows a search set even more.'
+		},
+		board: {
+			title: 'Setup position',
+			content: 'By <strong>clicking</strong> on the board you can setup position you want. After each click the pattern search will find all occurrences of the position among professional go games. You can also hold <kbd>shift</kbd> (or <kbd>ctrl</kbd>) key while clicking to immediately insert black (or white) stone.'
+		},
+		continuations: {
+			title: 'Found continuations',
+			content: 'In this table you can see list of continuations, which have been played in professional games. You can also see some statistics, the higher winning ratio the more successfull move.'
+		},
+		games: {
+			title: 'Matching games',
+			content: '<p>In this table you can see list of games, which contain searched position. Click on them to see your position in actual game. Then you can replay them on the small board using mouse wheel, or on a big board which will open after tapping the small board. For performance reasons there is 50 games at the most.</p><p>Now try to click on %{icon} in the top right corner.</p>'
+		},
+		statistics: {
+			title: 'Statistics',
+			content: '<p>In this column you can see various statistics for the current position.</p><p>Now try to click on %{icon} in the top right corner.</p>'
+		},
+		games_button: {
+			title: 'Matching games',
+			content: 'Click on this button to see matching games. You will be able to replay them as well.'
+		},
+		control: {
+			title: "Control buttons",
+			clear: "Clear board (all previous searches will be lost)",
+			undo: "Get previous search (undo)",
+			redo: "Get next search (redo)",
+			search_w: "Find white continuations (and matching games)",
+			search_b: "Find black continuations",
+			auto: "Enable/disable auto search. If checked searching will start after each move automatically. Please uncheck this option, if you want just try your variantion on the board."
+		},
+		share: {
+			title: 'Share your search',
+			content: 'If you click on this button, your search gets saved and you will be able to share your search with your friends on Facebook, Twitter or whatever social site kids now use.'
+		},
+		fb_like: {
+			title: 'Like it',
+			content: 'If you enjoy Waltheri\'s go pattern search I\'d be happy if you liked it on Facebook and shared it with your friends.',
+		}
+	},
+	
+	// error messages
+	errors: {
+		timeout: {
+			title: "Oh snap! Searching reached timeout.",
+			text: "It seems the server is under big pressure. Please try again in a moment."
+		},
+		offline: {
+			title: "Oh snap! Search failed.",
+			text: "It seems you are offline. Check your internet connection and try again."
+		},
+		other: {
+			title: "Oh snap! Search failed.",
+			text: "There's probably some temporary error on the server side. However if this message keeps poping out, or displays just for the current position, please send message on this email: thebestgoplayer@gmail.com."
+		},
+		javascript: {
+			title: "Oh snap! An error occured in the application.",
+			text: "<p>If you would like to help to solve it, plese send information about how it happend and the following message on this email: thebestgoplayer@gmail.com.</p><pre>%{stack}</pre>"
+		}
+	},
+	
+	plots: {
+		error: "Plot couldn't be loaded.",
+		loading: "Loading cool plot..."
+	},
+	
+	// general stuff used on multiple places
+	general: {
+		close: "Close",
+		na: "not available",
+		back: "Back",
+		next: "Next"
+	}
+}

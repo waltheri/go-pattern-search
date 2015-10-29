@@ -1,0 +1,228 @@
+// Czech(cs) localization of ps.waltheri.net
+// Localized name: Čeština
+
+{
+	// Top navigation
+	nav: {
+		pattern_search: "Vyhledávání pozic",
+		database: "Databáze",
+		about: "O applikaci",
+		facebook: "Facebook stránka"
+	},
+	
+	// tooltips for blue buttons in top right corner
+	menu: {
+		settings: "Nastavení",
+		share: "Sdílet aktuální hledání",
+		help: "Pokud si nevíte rady, klikněte sem",
+		old: "Stará verze"
+	},
+	
+	// selection group
+	selection: {
+		title: "Výběr:",
+		full: "Celá deska",
+		around: "Okolo kamenů",
+		tooltips: {
+			full: "Celá deska bude brána v úvahu",
+			around: "V úvahu bude brána pouze oblast kolem kamenů"
+		}
+	},
+	
+	// filter (search in) group
+	filter: {
+		title: "Omezit hledání:",
+		all: "Všechny hry",
+		modern: "Moderní hry",
+		new: "Nové hry",
+		tooltips: {
+			button: "Omezit hledání",
+			all: "Hledat v celé databázi",
+			modern: "Hledat mezi hrami z roku 2000 a novějšími",
+			new: "Hledat mezi nejnovějšími hrami"
+		}
+	},
+	
+	// big blue control buttons
+	control: {
+		title: "Nastavení vyhledávání:",
+		clear: "Reset",
+		undo: "Zpět",
+		redo: "Vpřed",
+		search_w: "Hledat&nbsp;B",
+		search_b: "Hledat&nbsp;Č",
+		tooltips: {
+			clear: "Vyčistit desku a hledání",
+			undo: "Vrátit se na předchozí hledání",
+			redo: "Znovu vyhledat poslední hledání",
+			search_w: "Najít odpovědi bílého",
+			search_b: "Najít odpovědi černého",
+			auto: "Automatické vyhledávání",
+			stop: "Ukončit hledání"
+		}
+	},
+	
+	// continuation block
+	continuations: {
+		title: "Nalezené odpovědi",
+		caption: "Bylo prohledáno %{games} profesionálních her během %{time} s",
+		games: "Počet her",
+		winrate: "Úspěšnost"
+	},
+	
+	// matching games
+	games: {
+		title: "Nalezené hry",
+		caption: "Zobrazen %{smart_count} výskyt z %{games} hry |||| Zobrazeny %{smart_count} výskyty ze %{games} her |||| Zobrazeno %{smart_count} výskytů z %{games} her",
+		year: "Rok",
+		tip: "Vyberte hru ze seznamu výše",
+		black: "Černý",
+		white: "Bílý",
+		back: "Zpět na vyhledávání"
+	},
+	
+	// statistics block
+	statistics: {
+		title: "Statistiky",
+		caption: "Pokročilé statistiky o aktuální pozici",
+		probability: "Pravděpodobnost výhry",
+		popularity: "Oblíbenost",
+		black_wins: "V této pozici černý vyhrál %{count} hru, |||| V této pozici černý vyhrál %{count} hry, |||| V této pozici černý vyhrál %{count} her,", // this string and the 'statistics.white_wins' string are rendered in row (divided by space)
+		white_wins: "bílý %{count} hru. |||| bílý %{count} hry. |||| bílý %{count} her.",
+		popularity_desc: "Tento graf ukazuje četnost výskytu dané pozice během let.",
+		lost: "Prohrané hry",
+		won: "Vyhrané hry",
+		unknown: "Výsledek neznámý",
+		games: "Odehraných her",
+		popularity_na: "Pro zobrazení grafu hledejte ještě jednou. |||| Pro zobrazení grafu hledejte ještě přibližně %{smart_count}×. |||| Pro zobrazení grafu hledejte ještě přibližně %{smart_count}×."
+	},
+		
+	// game browser and info
+	player: {
+		title: "Přehrát partii",
+		edit_mode: "Editace",
+		score_mode: "Počítání skóre",
+		coordinates: "Zobrazit souřadnice",
+		about: "O přehrávači",
+		about_desc: "Tento přehrávač go partií je postaven na knihovně <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a>. Pomocí této knihovny můžete podobný přehrávač snadno vložit do stránek a upravit podle svých představ.",
+		game_info: "Informace o hře",
+		date: "Datum",
+		event: "Událost",
+		komi: "Komi",
+		result: "Výsledek",
+		tooltips: {
+			first: "Na začátek",
+			previous: "Předchozí tah",
+			move_number: "Aktuální číslo tahu / Skočit na tah",
+			next: "Další tah",
+			last: "Na konec",
+			menu: "Menu"
+		}
+	},
+
+		
+	// settings modal dialog 
+	settings: {
+		title: "Nastavení",
+		board: "Deska:",
+		coordinates: "Zobrazit souřadnice okolo desky",
+		plots: "Grafy:",
+		continuation_plot: "Zobrazit graf odpovědí",
+		language: "Jazyk:",
+		language_auto: "Automaticky detekovat",
+		other: "Další:",
+		sound: "Zahrát zvuk po kliknutí na desku",
+		litemode: "Lite mód",
+		litemode_desc: "(pro lepší výkonnost)",
+		save: "Uložit změny"
+	},
+	
+	// share modal dialog
+	share: {
+		title: "Sdílet aktuální hledání",
+		text: "Pozice na Waltheri's go pattern search",
+		link: "Odkaz:",
+		html: "HTML:",
+		social: "Sdílet na sociálních sítí:",
+		facebook: "Sdílet na Facebooku",
+		twitter: "Sdílet na Twitteru",
+		twitter_text: "Mrkněte na tuhle pozici!",
+		copy_confirm: "Zkopírováno!",
+		error: "Vyskytla se nějaká chyba a sdílení teď není možné. Zkuste za chvíli."
+	},
+	
+	// help popovers
+	help: {
+		selection: {
+			title: 'Nastavení výběru',
+			content: 'Můžete si vybrat ze tří možností. <strong>Celá deska</strong> - hledá se po celé desce a záleží na každém průsečíku. <strong>Okolo kamenů</strong> - hledání probíhá pouze v okolí položených kamenů, ostatní průsečíky jsou ignorovány. Poslední možnost je <strong>manuální výběr</strong> - pomocá myši a tahnutí sami zvolíte, ve které oblasti se má hledat a které prusečíky mají být brány v úvahu.'
+		},
+		filter: {
+			title: 'Filtrovat hledání',
+			content: 'Zde můžete omezit hledání podle stáří her. Pokud vyberete <strong>moderní hry</strong>, hledat se bude pouze mezi hrami z roku 2000 a mladšími. Možnost <strong>nové hry</strong> omezí hledání na nejnovější hry v databázi.'
+		},
+		board: {
+			title: 'Nastavte pozici',
+			content: 'Klikáním na desku nastavíte pozici, kterou chcete vyhledat. Barva kamenů se normálně střídá, ale pokud společně s kliknutím podržíte klávesu <kbd>shift</kbd> (nebo <kbd>ctrl</kbd>) ihned se vloží černý, nebo bílý kámen.'
+		},
+		continuations: {
+			title: 'Nalezené odpovědi',
+			content: 'V této tabulce je seznam tahů, které v dané situaci hráli profesionální hráči. Také je zde uvedeno, v kolika procentech daný tah vedl k vítězství.'
+		},
+		games: {
+			title: 'Nalezené hry',
+			content: '<p>V této tabulce uvidíte hry, které obsahují hledanou pozici. Kliknutím na hru se hra zobrazí na malé desce, kde si jí můžete přehrát pomocí kolečka myši. Když kliknete na malou desku otevře se veliký přehrávač partií na celou obrazovku. Pro lepší výkon se zobrazuje maximálně 50 her.</p><p>Teď klikněte na %{icon} v pravém horním rohu.</p>'
+		},
+		statistics: {
+			title: 'Statistiky',
+			content: '<p>V tomto bloku jsou ruzné statistiky o aktuální pozici.</p><p>Teď klikněte na %{icon} v pravém horním rohu.</p>'
+		},
+		games_button: {
+			title: 'Nalezené hry',
+			content: 'Tímto tlačítkem se zobrazí seznam nalezených her a přehravač, pomocí kterého si budete moci hry přehrát.'
+		},
+		control: {
+			title: "Ovládací tlačítka",
+			clear: "Vyčistit hledání (dosavadní hledání budou ztraceny)",
+			undo: "Předchozí hledání",
+			redo: "Znovu hledat",
+			search_w: "Najít odpovědi bílého",
+			search_b: "Najít odpovědi černého",
+			auto: "Zapnout/vypnout automatické hledání. Pokud je automatické hledání aktivováno, hledání proběhne po každém tahu. To je náročnější pro server, takže pokud si jentak přehráváte varianty, vypněte prosím tuto možnost."
+		},
+		share: {
+			title: 'Sdílet hledání',
+			content: 'Po kliknutí na toto tlačítko se aktuální hledání uloží a vy ho budete moci sdílet se svými přáteli na Facebooku, Twitteru nebo kdekoli jinde.'
+		},
+		fb_like: {
+			title: 'Dejte like',
+			content: 'Pokud se vám tato webová aplikace líbí, budu rád, když jí olikujete na Facebooku.',
+		}
+	},
+	
+	// error messages
+	errors: {
+		timeout: {
+			title: "Sakra! Vypršel časový limit.",
+			text: "Uběhl časový limit a server nevrátil žádný výsledek, pravděpodobně je pod velikým tlakem. Zkuste prosím znovu."
+		},
+		offline: {
+			title: "Sakra! Hledání se nepovedlo.",
+			text: "Vypadá to, že nejste připojeni k internetu. Zkontrolujte svoje připojení a zkuste znovu."
+		},
+		other: {
+			title: "Sakra! Hledání se nepovedlo.",
+			text: "Pravděpodobně se vyskytl nějaký dočasný problém na straně serveru. Pokud ale tato zpráva pořád vyskakuje, napište prosím na e-mailovou adresu thebestgoplayer@gmail.com."
+		},
+		javascript: {
+			title: "Sakra! V aplikaci vznikla chyba.",
+			text: "<p>Pokud chcete pomoci vyřešit tento problém, napište prosím na e-mailovou adresu thebestgoplayer@gmail.com a uveďte následující text.</p><pre>%{stack}</pre>"
+		}
+	},
+	
+	// general stuff used on multiple places
+	general: {
+		close: "Zavřít",
+		na: "není dostupné"
+	},
+}
