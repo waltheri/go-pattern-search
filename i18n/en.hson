@@ -21,7 +21,7 @@
 	// selection group
 	selection: {
 		title: "Selection:",
-		full: "Full Board",
+		full: "Full board",
 		around: "Around stones",
 		tooltips: {
 			full: "Full board selection",
