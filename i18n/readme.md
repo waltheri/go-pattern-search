@@ -4,7 +4,7 @@ This guide will help you to translate Waltheri's go pattern search into your lan
 
 ## Add translations
 
-1) Click on **New file** button in top right corner of this page after.
+1) Click on **New file** button in top right corner of this page.
 
 2) Put content of [en.hson](https://github.com/waltheri/go-pattern-search/blob/master/i18n/en.hson) into the new file and translate all text strings between brackets `"` into your language. Name of the new file should be **[lang_code].hson**, where **[lang_code]** stands for [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code of your language.
 
