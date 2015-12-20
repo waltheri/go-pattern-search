@@ -224,5 +224,7 @@
 	general: {
 		close: "Zavřít",
 		na: "není dostupné"
+		back: "Zpět",
+		next: "Dále"
 	},
 }
