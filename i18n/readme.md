@@ -4,19 +4,17 @@ This guide will help you to translate Waltheri's go pattern search into your lan
 
 ## Add translations
 
-1) Copy content of [en.hson](https://github.com/waltheri/go-pattern-search/blob/master/i18n/en.hson).
+1) Click on **New file** button in top right corner of this page after.
 
-2) Click on **+** after **go-pattern-search/i18n/** (Fork this project and create a new file)
+2) Put content of [en.hson](https://github.com/waltheri/go-pattern-search/blob/master/i18n/en.hson) into the new file and translate all text strings between brackets `"` into your language. Name of the new file should be **[lang_code].hson**, where **[lang_code]** stands for [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code of your language.
 
-3) Put content of **en.hson** into the new file and translate all text strings between brackets `"` into your language. Name of the new file should be **[lang_code].hson**, where **[lang_code]** stands for [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code of your language.
+3) When your translation file is ready, continue with **Propose new file** and then click on **Create pull request** button. It is not necessary to fill any description or comment.
 
-4) Save the file and continue with **Create pull request**.
-
-5) And that should be it. I will get notified and upload the translation on the pattern search.
+4) And that should be it. I will get notified and upload the translation on the pattern search.
 
 ## Edit translations
 
-1) Select translation file you want to edit and open it.
+1) On this page select translation file you want to edit and open it.
 
 2) Click on the pencil in top right corner (Fork this project and edit the file).
 
