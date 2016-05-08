@@ -21,8 +21,8 @@
 	// selection group
 	selection: {
 		title: "Seleziona:",
-		full: "Goban intero",
-		around: "Situazione locale",
+		full: "Globale",
+		around: "Locale",
 		tooltips: {
 			full: "L'intero goban è selezionato",
 			around: "Seleziona le aree adiacenti alle pietre già posizionate"
@@ -34,7 +34,7 @@
 		title: "Cerca in:",
 		all: "Tutte le partite",
 		modern: "Partite moderne",
-		new: "Partite nuove",
+		new: "Partite recenti",
 		tooltips: {
 			button: "Search in",
 			all: "Cerca in tutto il database",
@@ -66,16 +66,16 @@
 	continuations: {
 		title: "Trova continuazioni",
 		caption: "%{games} partite professionali analizzate in %{time} s",
-		games: "Numero di partite",
-		winrate: "Percentuale di vittoria"
+		games: "Num. partite",
+		winrate: "Perc. vittoria"
 	},
 	
 	// matching games block
 	games: {
 		title: "Partite corrispondenti",
-		caption: "Visualizzato %{smart_count} avvenimento da %{games} partita |||| Visualizzati %{smart_count} avvenimenti da %{games} partite",
+		caption: "Visualizzata %{smart_count} situazione da %{games} partita |||| Visualizzate %{smart_count} situazioni da %{games} partite",
 		year: "Anno",
-		tip: "Select any game above to view it.",
+		tip: "Seleziona una delle partite per visualizzarla.",
 		black: "Nero",
 		white: "Bianco",
 		back: "Torna alla ricerca"
@@ -94,7 +94,7 @@
 		won: "Partite vinte",
 		unknown: "Risultato sconosciuto",
 		games: "Partite giocate",
-		popularity_na: "Cerca ancora una volta per rendere il grafico. |||| Cerca ancora ±%{smart_count} per rendere il grafico."
+		popularity_na: "Cerca ancora una volta per aggiornare il grafico. |||| Cerca ancora ±%{smart_count} per aggiornare il grafico."
 	},
 	
 	// kifu player and info
@@ -155,11 +155,11 @@
 	help: {
 		selection: {
 			title: 'Scegli modalità selezione',
-			content: 'Hai tre opzioni. Il bottone <strong>Goban intero</strong> seleziona tutta la tavola, riguarda ogni zona di essa e ogni pietra posizionata. Il bottone <strong>Situazione locale</strong> seleziona le aree adiacenti alle pietre posizionate, utile se vuoi approfondire uno joseki. La terza opzione è una <strong>selezione manuale</strong> - puoi selezionare qualunque parte del goban, semplicemente tenendo premuto il tasto del mouse sull'area interessata e trascinandolo per definire la selezione.'
+			content: 'Hai tre opzioni: Il bottone <strong>Globale</strong> seleziona tutta la tavola, riguarda ogni zona di essa e ogni pietra posizionata. Il bottone <strong>Locale</strong> seleziona le aree adiacenti alle pietre posizionate, utile se vuoi approfondire uno joseki. La terza opzione è una <strong>selezione manuale</strong> - puoi selezionare qualunque parte del goban, semplicemente tenendo premuto il tasto del mouse sull'area interessata e trascinando per definire la selezione.'
 		},
 		filter: {
 			title: 'Ricerca specifica',
-			content: 'Puoi restringere la tua ricerca a partite di un certo periodo. Selezionando <strong>Partite moderne</strong>, la posizione sarà cercata solo nelle partite professionali giocate dal ventunesimo secolo in poi. L'opzione <strong>Nuove partite</strong> restringe la ricerca a partite giocate nell'ultimo anno.'
+			content: 'Puoi restringere la tua ricerca a partite di un certo periodo. Selezionando <strong>Partite moderne</strong>, la posizione sarà cercata solo nelle partite professionali giocate dal 2000 in poi. L'opzione <strong>Partite recenti</strong> restringe la ricerca a partite giocate nell'ultimo anno.'
 		},
 		board: {
 			title: 'Posizioni',
@@ -171,7 +171,7 @@
 		},
 		games: {
 			title: 'Confronta partite',
-			content: '<p>Qui potrai vedere una lista di partite, che contengono la posizione cercata. Cliccale per vedere la tua posizione nella partita attuale. Potrai rivederle nel piccolo goban in basso usando la rotella del mouse, o su un goban di grandi dimensioni che si aprirà se si clicca la miniatura. Per ragioni di prestazioni ci saranno al massimo 50 partite. </p><p>Ora prova a cliccare su %{icon} nell'angolo in alto a destra.</p>'
+			content: '<p>Qui potrai vedere una lista di partite che contengono la posizione cercata. Cliccale per vedere la tua posizione nella partita attuale. Potrai rivedere le partite intere nel piccolo goban in basso usando la rotella del mouse, o ,cliccando su di esso, allargare la visuale su un goban di grandi dimensioni. Per ragioni di prestazioni ci saranno al massimo 50 partite. </p><p>Ora prova a cliccare su %{icon} nell'angolo in alto a destra.</p>'
 		},
 		statistics: {
 			title: 'Statistiche',
@@ -192,11 +192,11 @@
 		},
 		share: {
 			title: 'Condividi ricerca',
-			content: 'Se clicchi questo pulsante, la tua ricerca verrà salvata e potrai condividerla con i tuoi amici su Facebook, Twitter o qualunque altro social.'
+			content: 'Se clicchi questo pulsante, potrai condividere la ricerca con i tuoi amici su Facebook, Twitter o qualunque altro social.'
 		},
 		fb_like: {
 			title: 'Mi piace',
-			content: 'Se apprezzi questo progetto, sarei felice se tu volessi seguire la pagina Facebook e condividerlo con i tuoi amici.',
+			content: 'Se apprezzi la ricerca pattern di Waltheri, segui la pagina Facebook e condividi questo progetto con i tuoi amici.',
 		}
 	},
 	
@@ -204,11 +204,11 @@
 	errors: {
 		timeout: {
 			title: "Ouch! La ricerca ha raggiunto il tempo limite.",
-			text: "Sembra che il server sia sotto grande pressione. Per favore riprova tra un attimo."
+			text: "Sembra che il server sia sottoposto ad una grande mole di lavoro. Per favore riprova tra un attimo."
 		},
 		offline: {
 			title: "Ouch! Ricerca fallita.",
-			text: "Sembra tu sia offline. Controlla la tua connessione e riprova."
+			text: "Sembra che tu sia offline. Controlla la tua connessione e riprova."
 		},
 		other: {
 			title: "Ouch! Ricerca fallita.",
@@ -227,7 +227,7 @@
 	
 	// general stuff used on multiple places
 	general: {
-		close: "Chiuso",
+		close: "Chiudi",
 		na: "non disponibile",
 		back: "Indietro",
 		next: "Avanti"
