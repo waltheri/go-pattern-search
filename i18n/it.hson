@@ -1,0 +1,235 @@
+// Italian(it) localization of ps.waltheri.net
+// Localized name: Italiano
+
+{
+	// Top navigation
+	nav: {
+		pattern_search: "Ricerca pattern",
+		database: "Sfoglia il database",
+		about: "Informazioni",
+		facebook: "Pagina Facebook"
+	},
+	
+	// tooltips for blue buttons in top right corner
+	menu: {
+		settings: "Opzioni",
+		share: "Condividi ricerca attuale",
+		help: "Clicca qui se non sai cosa fare",
+		old: "Vecchia versione della ricerca pattern",
+	},
+	
+	// selection group
+	selection: {
+		title: "Seleziona:",
+		full: "Goban intero",
+		around: "Situazione locale",
+		tooltips: {
+			full: "L'intero goban è selezionato",
+			around: "Seleziona le aree adiacenti alle pietre già posizionate"
+		}
+	},
+	
+	// filter (search in) group
+	filter: {
+		title: "Cerca in:",
+		all: "Tutte le partite",
+		modern: "Partite moderne",
+		new: "Partite nuove",
+		tooltips: {
+			button: "Search in",
+			all: "Cerca in tutto il database",
+			modern: "Partite dall'anno 2000 in poi",
+			new: "Partite non più vecchie di un anno"
+		}
+	},
+	
+	// big blue control buttons
+	control: {
+		title: "Controlli ricerca:",
+		clear: "Azzera",
+		undo: "Annulla",
+		redo: "Ripeti",
+		search_w: "Cerca&nbsp;B",
+		search_b: "Cerca&nbsp;N",
+		tooltips: {
+			clear: "Azzera la posizione",
+			undo: "Precedente",
+			redo: "Successivo",
+			search_w: "Trova continuazioni per bianco",
+			search_b: "Trova continuazioni per nero",
+			auto: "Ricerca automatica",
+			stop: "Ferma ricerca"
+		}
+	},
+	
+	// continuation block
+	continuations: {
+		title: "Trova continuazioni",
+		caption: "%{games} partite professionali analizzate in %{time} s",
+		games: "Numero di partite",
+		winrate: "Percentuale di vittoria"
+	},
+	
+	// matching games block
+	games: {
+		title: "Partite corrispondenti",
+		caption: "Visualizzato %{smart_count} avvenimento da %{games} partita |||| Visualizzati %{smart_count} avvenimenti da %{games} partite",
+		year: "Anno",
+		tip: "Select any game above to view it.",
+		black: "Nero",
+		white: "Bianco",
+		back: "Torna alla ricerca"
+	},
+	
+	// statistics block
+	statistics: {
+		title: "Statistiche posizione",
+		caption: "Statistiche avanzate sulla posizione attuale",
+		probability: "Probabilità di vittoria",
+		popularity: "Popolarità",
+		black_wins: "In questa posizione nero è riuscito a vincere %{count} partita, |||| In questa posizione nero è riuscito a vincere %{count} partite,", // this string and the 'statistics.white_wins' string are rendered in row (divided by space)
+		white_wins: "Bianco vince %{count} partita. |||| Bianco vince %{count} partite.",
+		popularity_desc: "Popolarità della posizione negli anni.",
+		lost: "Partite perse",
+		won: "Partite vinte",
+		unknown: "Risultato sconosciuto",
+		games: "Partite giocate",
+		popularity_na: "Cerca ancora una volta per rendere il grafico. |||| Cerca ancora ±%{smart_count} per rendere il grafico."
+	},
+	
+	// kifu player and info
+	player: {
+		title: "Guarda la partita",
+		edit_mode: "Modalità modifica",
+		score_mode: "Modalità punteggio",
+		coordinates: "Coordinate",
+		about: "Informazioni sul visualizzatore",
+		about_desc: "Questo visualizzatore di sgf è basato sulla libreria <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a>. E' facile da usare e puoi inserirlo nel tuo sito.", // write some pretty advert for me in your language :-)
+		game_info: "Informazioni partita",
+		date: "Data",
+		event: "Evento",
+		komi: "Komi",
+		result: "Risultato",
+		score_help: "Clicca sulla pietre per segnarle come morte o come vive. Puoi anche aggiungere/sottrarre i punti territorio cliccando su di essi. I territori debbono essere completamente chiusi per essere conteggiati.",
+		tooltips: {
+			first: "Prima mossa",
+			previous: "Mossa precedente",
+			move_number: "Numero mossa corrente / Vai alla mossa",
+			next: "Prossima mossa",
+			last: "Ultima mossa",
+			menu: "Menù"
+		},
+	},
+	
+	// settings modal dialog 
+	settings: {
+		title: "Opzioni",
+		board: "Goban:",
+		coordinates: "Mostra coordinate",
+		plots: "Grafici:",
+		continuation_plot: "Mostra continuazione grafico",
+		language: "Lingua:",
+		language_auto: "Rilevata automaticamente",
+		other: "Altro:",
+		sound: "Riproduci il suono delle pietre",
+		litemode: "Modalità leggera",
+		litemode_desc: "(per prestazioni migliori)",
+		save: "Salva cambiamenti"
+	},
+	
+	// share modal dialog
+	share: {
+		title: "Condividi situazione corrente",
+		text: "Situazione da Waltheri's go pattern search",
+		link: "Link della ricerca:",
+		html: "HTML:",
+		social: "Condividi sui social:",
+		facebook: "Condividi su Facebook",
+		twitter: "Condividi su Twitter",
+		twitter_text: "Guarda questa situazione!",
+		copy_confirm: "Copiato!",
+		error: "C'è qualche errore, il servizio di condivisione non è attualmente funzionante."
+	},
+	
+	// help popovers
+	help: {
+		selection: {
+			title: 'Scegli modalità selezione',
+			content: 'Hai tre opzioni. Il bottone <strong>Goban intero</strong> seleziona tutta la tavola, riguarda ogni zona di essa e ogni pietra posizionata. Il bottone <strong>Situazione locale</strong> seleziona le aree adiacenti alle pietre posizionate, utile se vuoi approfondire uno joseki. La terza opzione è una <strong>selezione manuale</strong> - puoi selezionare qualunque parte del goban, semplicemente tenendo premuto il tasto del mouse sull'area interessata e trascinandolo per definire la selezione.'
+		},
+		filter: {
+			title: 'Ricerca specifica',
+			content: 'Puoi restringere la tua ricerca a partite di un certo periodo. Selezionando <strong>Partite moderne</strong>, la posizione sarà cercata solo nelle partite professionali giocate dal ventunesimo secolo in poi. L'opzione <strong>Nuove partite</strong> restringe la ricerca a partite giocate nell'ultimo anno.'
+		},
+		board: {
+			title: 'Posizioni',
+			content: 'Con pochi <strong>click</strong> sulla tavola potrai rappresentare qualunque situazione. Dopo ogni click la ricerca pattern troverà e confronterà la posizione con le partite professionali. Puoi tenere premuto <kbd>shift</kbd> (o <kbd>ctrl</kbd>) mentre clicchi per inserire immediatamente una pietra, nera o bianca, a prescindere dal turno.'
+		},
+		continuations: {
+			title: 'Trova continuazioni',
+			content: 'Qui potrai vedere la lista delle continuazioni, che sono state giocate in partite professionali. Potrai anche vedere alcune statistiche, come la percentuale di vittorie, per determinare le mosse migliori.'
+		},
+		games: {
+			title: 'Confronta partite',
+			content: '<p>Qui potrai vedere una lista di partite, che contengono la posizione cercata. Cliccale per vedere la tua posizione nella partita attuale. Potrai rivederle nel piccolo goban in basso usando la rotella del mouse, o su un goban di grandi dimensioni che si aprirà se si clicca la miniatura. Per ragioni di prestazioni ci saranno al massimo 50 partite. </p><p>Ora prova a cliccare su %{icon} nell'angolo in alto a destra.</p>'
+		},
+		statistics: {
+			title: 'Statistiche',
+			content: '<p>In questa colonna vedrai varie statistiche per la posizione corrente.</p><p>Prova a cliccare su %{icon} nell'angolo in alto a destra.</p>'
+		},
+		games_button: {
+			title: 'Confronta partite',
+			content: 'Clicca su questo bottone per confrontare le partite. Potrai anche rivedere l'intero match.'
+		},
+		control: {
+			title: "Pulsanti di controllo",
+			clear: "Azzera la posizione (tutte le precedenti ricerche andranno perse)",
+			undo: "Mossa precedente (annulla)",
+			redo: "Mossa successiva (ripeti)",
+			search_w: "Trova continuazioni per bianco (e confronta le partite)",
+			search_b: "Trova continuazioni per nero",
+			auto: "Attiva/disattiva ricerca automatica. Se selezionato partirà automaticamente dopo ogni mossa. Disattiva l'opzione, se vuoi provare le tue varianti sul goban."
+		},
+		share: {
+			title: 'Condividi ricerca',
+			content: 'Se clicchi questo pulsante, la tua ricerca verrà salvata e potrai condividerla con i tuoi amici su Facebook, Twitter o qualunque altro social.'
+		},
+		fb_like: {
+			title: 'Mi piace',
+			content: 'Se apprezzi questo progetto, sarei felice se tu volessi seguire la pagina Facebook e condividerlo con i tuoi amici.',
+		}
+	},
+	
+	// error messages
+	errors: {
+		timeout: {
+			title: "Ouch! La ricerca ha raggiunto il tempo limite.",
+			text: "Sembra che il server sia sotto grande pressione. Per favore riprova tra un attimo."
+		},
+		offline: {
+			title: "Ouch! Ricerca fallita.",
+			text: "Sembra tu sia offline. Controlla la tua connessione e riprova."
+		},
+		other: {
+			title: "Ouch! Ricerca fallita.",
+			text: "Probabilmente c'è qualche errore momentaneo sul server. Se questo errore persiste, o appare sempre alla corrente posizione, per favore segnalalo a questa mail: thebestgoplayer@gmail.com."
+		},
+		javascript: {
+			title: "Ouch! Errore nell'applicazione.",
+			text: "<p>Se vuoi aiutare a risolvere il problema, manda informazioni su cosa è successo a questa mail: thebestgoplayer@gmail.com. Grazie.</p><pre>%{stack}</pre>"
+		}
+	},
+	
+	plots: {
+		error: "Il grafico non può essere caricato.",
+		loading: "Caricamento grafico..."
+	},
+	
+	// general stuff used on multiple places
+	general: {
+		close: "Chiuso",
+		na: "non disponibile",
+		back: "Indietro",
+		next: "Avanti"
+	}
+}
