@@ -103,7 +103,7 @@
 		edit_mode: "Modalità modifica",
 		score_mode: "Modalità punteggio",
 		coordinates: "Coordinate",
-		about: "Informazioni sul visualizzatore",
+		about: "Info visualizzatore",
 		about_desc: "Questo visualizzatore di sgf è basato sulla libreria <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a>. E' facile da usare e puoi inserirlo nel tuo sito.", // write some pretty advert for me in your language :-)
 		game_info: "Informazioni partita",
 		date: "Data",
