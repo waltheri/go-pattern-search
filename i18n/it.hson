@@ -111,6 +111,10 @@
 		komi: "Komi",
 		result: "Risultato",
 		score_help: "Clicca sulla pietre per segnarle come morte o come vive. Puoi anche aggiungere/sottrarre i punti territorio cliccando su di essi. I territori debbono essere completamente chiusi per essere conteggiati.",
+		share: "Share",
+		pernament_link: "Permanent link",
+		share_twitter_text: "Check this game between %{black} and %{white}!",
+		download: "Download SGF",
 		tooltips: {
 			first: "Prima mossa",
 			previous: "Mossa precedente",
@@ -154,32 +158,32 @@
 	// help popovers
 	help: {
 		selection: {
-			title: 'Scegli modalità selezione',
-			content: 'Hai tre opzioni: Il bottone <strong>Globale</strong> seleziona tutta la tavola, riguarda ogni zona di essa e ogni pietra posizionata. Il bottone <strong>Locale</strong> seleziona le aree adiacenti alle pietre posizionate, utile se vuoi approfondire uno joseki. La terza opzione è una <strong>selezione manuale</strong> - puoi selezionare qualunque parte del goban, semplicemente tenendo premuto il tasto del mouse sull'area interessata e trascinando per definire la selezione.'
+			title: "Scegli modalità selezione",
+			content: "Hai tre opzioni: Il bottone <strong>Globale</strong> seleziona tutta la tavola, riguarda ogni zona di essa e ogni pietra posizionata. Il bottone <strong>Locale</strong> seleziona le aree adiacenti alle pietre posizionate, utile se vuoi approfondire uno joseki. La terza opzione è una <strong>selezione manuale</strong> - puoi selezionare qualunque parte del goban, semplicemente tenendo premuto il tasto del mouse sull'area interessata e trascinando per definire la selezione."
 		},
 		filter: {
-			title: 'Ricerca specifica',
-			content: 'Puoi restringere la tua ricerca a partite di un certo periodo. Selezionando <strong>Partite moderne</strong>, la posizione sarà cercata solo nelle partite professionali giocate dal 2000 in poi. L'opzione <strong>Partite recenti</strong> restringe la ricerca a partite giocate nell'ultimo anno.'
+			title: "Ricerca specifica",
+			content: "Puoi restringere la tua ricerca a partite di un certo periodo. Selezionando <strong>Partite moderne</strong>, la posizione sarà cercata solo nelle partite professionali giocate dal 2000 in poi. L'opzione <strong>Partite recenti</strong> restringe la ricerca a partite giocate nell'ultimo anno."
 		},
 		board: {
-			title: 'Posizioni',
-			content: 'Con pochi <strong>click</strong> sulla tavola potrai rappresentare qualunque situazione. Dopo ogni click la ricerca pattern troverà e confronterà la posizione con le partite professionali. Puoi tenere premuto <kbd>shift</kbd> (o <kbd>ctrl</kbd>) mentre clicchi per inserire immediatamente una pietra, nera o bianca, a prescindere dal turno.'
+			title: "Posizioni",
+			content: "Con pochi <strong>click</strong> sulla tavola potrai rappresentare qualunque situazione. Dopo ogni click la ricerca pattern troverà e confronterà la posizione con le partite professionali. Puoi tenere premuto <kbd>shift</kbd> (o <kbd>ctrl</kbd>) mentre clicchi per inserire immediatamente una pietra, nera o bianca, a prescindere dal turno."
 		},
 		continuations: {
-			title: 'Trova continuazioni',
-			content: 'Qui potrai vedere la lista delle continuazioni, che sono state giocate in partite professionali. Potrai anche vedere alcune statistiche, come la percentuale di vittorie, per determinare le mosse migliori.'
+			title: "Trova continuazioni",
+			content: "Qui potrai vedere la lista delle continuazioni, che sono state giocate in partite professionali. Potrai anche vedere alcune statistiche, come la percentuale di vittorie, per determinare le mosse migliori."
 		},
 		games: {
-			title: 'Confronta partite',
-			content: '<p>Qui potrai vedere una lista di partite che contengono la posizione cercata. Cliccale per vedere la tua posizione nella partita attuale. Potrai rivedere le partite intere nel piccolo goban in basso usando la rotella del mouse, o ,cliccando su di esso, allargare la visuale su un goban di grandi dimensioni. Per ragioni di prestazioni ci saranno al massimo 50 partite. </p><p>Ora prova a cliccare su %{icon} nell'angolo in alto a destra.</p>'
+			title: "Confronta partite",
+			content: "<p>Qui potrai vedere una lista di partite che contengono la posizione cercata. Cliccale per vedere la tua posizione nella partita attuale. Potrai rivedere le partite intere nel piccolo goban in basso usando la rotella del mouse, o ,cliccando su di esso, allargare la visuale su un goban di grandi dimensioni. Per ragioni di prestazioni ci saranno al massimo 50 partite. </p><p>Ora prova a cliccare su %{icon} nell'angolo in alto a destra.</p>"
 		},
 		statistics: {
-			title: 'Statistiche',
-			content: '<p>In questa colonna vedrai varie statistiche per la posizione corrente.</p><p>Prova a cliccare su %{icon} nell'angolo in alto a destra.</p>'
+			title: "Statistiche",
+			content: "<p>In questa colonna vedrai varie statistiche per la posizione corrente.</p><p>Prova a cliccare su %{icon} nell'angolo in alto a destra.</p>"
 		},
 		games_button: {
-			title: 'Confronta partite',
-			content: 'Clicca su questo bottone per confrontare le partite. Potrai anche rivedere l'intero match.'
+			title: "Confronta partite",
+			content: "Clicca su questo bottone per confrontare le partite. Potrai anche rivedere l'intero match."
 		},
 		control: {
 			title: "Pulsanti di controllo",
@@ -191,12 +195,12 @@
 			auto: "Attiva/disattiva ricerca automatica. Se selezionato partirà automaticamente dopo ogni mossa. Disattiva l'opzione, se vuoi provare le tue varianti sul goban."
 		},
 		share: {
-			title: 'Condividi ricerca',
-			content: 'Se clicchi questo pulsante, potrai condividere la ricerca con i tuoi amici su Facebook, Twitter o qualunque altro social.'
+			title: "Condividi ricerca",
+			content: "Se clicchi questo pulsante, potrai condividere la ricerca con i tuoi amici su Facebook, Twitter o qualunque altro social."
 		},
 		fb_like: {
-			title: 'Mi piace',
-			content: 'Se apprezzi la ricerca pattern di Waltheri, segui la pagina Facebook e condividi questo progetto con i tuoi amici.',
+			title: "Mi piace",
+			content: "Se apprezzi la ricerca pattern di Waltheri, segui la pagina Facebook e condividi questo progetto con i tuoi amici.",
 		}
 	},
 	
@@ -231,5 +235,51 @@
 		na: "non disponibile",
 		back: "Indietro",
 		next: "Avanti"
-	}
+	},
+	
+	// database section
+	db: {
+		sections: {
+			recent: "Recently added",
+			players: "Browse by players",
+			advanced: "Advanced search"
+		},
+		game_list: {
+			title: "Games",
+			count: "(%{count}&nbsp;game) |||| (%{count}&nbsp;games)",
+			load_more: "Load more games",
+			list_view: "List view",
+			tile_view: "Tile view",
+			table_view: "Table view",
+			recent: "Recent games",
+			advanced: "Advanced search",
+			replay_game: "Replay game",
+			download_sgf: "Download game as SGF"
+		},
+		player_info: {
+			na: "Currently we don't know anything about <strong>%{player}</strong>. <a href='#'>Learn</a> how to add some info.",
+			loading: "Loading info...",
+			origin: "This text comes from <a href=\"%{link}\">%{name}</a>. You can find more info there or edit it."
+		},
+		browser: {
+			more_between: "More games between <strong>%{player1}</strong> and <strong>%{player2}</strong>",
+			more: "More games of <strong>%{player}</strong>"
+		},
+		players: {
+			title: "List of players"
+		},
+		filter: {
+			player1: "Player 1",
+			player2: "Player 2",
+			older_than: "Older than %{year}",
+			newer_than: "%{year} - present",
+			black_won: "Black won",
+			white_won: "White won",
+			black_half: "B + 0.5",
+			white_half: "W + 0.5",
+			black_res: "B + Res",
+			white_res: "W + Res",
+			jigo: "Jigo"
+		}
+	},
 }

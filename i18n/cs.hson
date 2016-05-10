@@ -110,6 +110,9 @@
 		event: "Událost",
 		komi: "Komi",
 		result: "Výsledek",
+		score_help: "Mrtvé kameny označíte kliknutím na ně. Dále je možné označit neutrály kliknutím na volné pole. Území musí být kompletně ohraničené.",
+		share: "Sdílet",
+		pernament_link: "Permanentní odkaz",
 		tooltips: {
 			first: "Na začátek",
 			previous: "Předchozí tah",
@@ -223,8 +226,52 @@
 	// general stuff used on multiple places
 	general: {
 		close: "Zavřít",
-		na: "není dostupné"
+		na: "není dostupné",
 		back: "Zpět",
 		next: "Dále"
+	},
+	
+	// database section
+	db: {
+		sections: {
+			recent: "Naposled přidané",
+			players: "Seznam hráčů",
+			advanced: "Pokročilé vyhledávání"
+		},
+		game_list: {
+			title: "Hry",
+			count: "(%{count}&nbsp;hra) |||| (%{count}&nbsp;hry) |||| (%{count}&nbsp;her)",
+			load_more: "Načíst další hry",
+			list_view: "Seznam",
+			tile_view: "Dlaždice",
+			table_view: "Tabulka",
+			recent: "Nejnovější hry",
+			advanced: "Pokročilé vyhledávání"
+		},
+		player_info: {
+			na: "Currently we don't know anything about <strong>%{player}</strong>. <a href='#'>Learn</a> how to add some info.",
+			loading: "Načítání informací...",
+			origin: "Tento text pochází z <a href=\"%{link}\">%{name}</a>. Tam najdete ještě více informací o hrači a možnost je upravit."
+		},
+		browser: {
+			more_between: "Další hry mezi <strong>%{player1}</strong> a <strong>%{player2}</strong>",
+			more: "Další hry <strong>%{player}</strong>"
+		},
+		players: {
+			title: "Seznam hráčů"
+		},
+		filter: {
+			player1: "Hráč 1",
+			player2: "Hráč 2",
+			older_than: "Starší než %{year}",
+			newer_than: "%{year} - do teď",
+			black_won: "Černý vyhrál",
+			white_won: "Bílý vyhrál",
+			black_half: "B + 0,5",
+			white_half: "W + 0,5",
+			black_res: "B + Vzd",
+			white_res: "W + Vzd",
+			jigo: "Remíza"
+		}
 	},
 }

@@ -111,6 +111,10 @@
 		komi: "Komi",
 		result: "Result",
 		score_help: "Click on stones to mark them dead or alive. You can also set and unset territory points by clicking on them. Territories must be completely bordered.",
+		share: "Share",
+		pernament_link: "Permanent link",
+		share_twitter_text: "Check this game between %{black} and %{white}!",
+		download: "Download SGF",
 		tooltips: {
 			first: "First move",
 			previous: "Previous move",
@@ -231,5 +235,51 @@
 		na: "not available",
 		back: "Back",
 		next: "Next"
-	}
+	},
+	
+	// database section
+	db: {
+		sections: {
+			recent: "Recently added",
+			players: "Browse by players",
+			advanced: "Advanced search"
+		},
+		game_list: {
+			title: "Games",
+			count: "(%{count}&nbsp;game) |||| (%{count}&nbsp;games)",
+			load_more: "Load more games",
+			list_view: "List view",
+			tile_view: "Tile view",
+			table_view: "Table view",
+			recent: "Recent games",
+			advanced: "Advanced search",
+			replay_game: "Replay game",
+			download_sgf: "Download game as SGF"
+		},
+		player_info: {
+			na: "Currently we don't know anything about <strong>%{player}</strong>. <a href='#'>Learn</a> how to add some info.",
+			loading: "Loading info...",
+			origin: "This text comes from <a href=\"%{link}\">%{name}</a>. You can find more info there or edit it."
+		},
+		browser: {
+			more_between: "More games between <strong>%{player1}</strong> and <strong>%{player2}</strong>",
+			more: "More games of <strong>%{player}</strong>"
+		},
+		players: {
+			title: "List of players"
+		},
+		filter: {
+			player1: "Player 1",
+			player2: "Player 2",
+			older_than: "Older than %{year}",
+			newer_than: "%{year} - present",
+			black_won: "Black won",
+			white_won: "White won",
+			black_half: "B + 0.5",
+			white_half: "W + 0.5",
+			black_res: "B + Res",
+			white_res: "W + Res",
+			jigo: "Jigo"
+		}
+	},
 }
