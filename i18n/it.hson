@@ -113,7 +113,7 @@
 		score_help: "Clicca sulla pietre per segnarle come morte o come vive. Puoi anche aggiungere/sottrarre i punti territorio cliccando su di essi. I territori debbono essere completamente chiusi per essere conteggiati.",
 		share: "Share",
 		pernament_link: "Permanent link",
-		share_twitter_text: "Check this game between %{black} and %{white}!",
+		share_twitter_text: "Guarda questa partita tra %{black} and %{white}!",
 		download: "Download SGF",
 		tooltips: {
 			first: "Prima mossa",
