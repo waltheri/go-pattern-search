@@ -104,7 +104,7 @@
 		score_mode: "Mode de score",
 		coordinates: "Activer les coordonnées",
 		about: "A propos de ce lecteur",
-		//about_desc: "Ce lecteur de sgf/kifu est basé sur la bibliothèque <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a>. Elle est facile à utiliser et vous pouvez l'intégrer à votre site web. Même que c'est elle la meilleure !", // write some pretty advert for me in your language :-)
+		about_desc: "Ce lecteur de sgf/kifu est basé sur la bibliothèque <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a>. Elle est facile à utiliser et vous pouvez l'intégrer à votre site web. Même que c'est elle la meilleure !", // write some pretty advert for me in your language :-)
 		game_info: "Informations de la partie",
 		date: "Date",
 		event: "Événement",
@@ -158,32 +158,32 @@
 	// help popovers
 	help: {
 		selection: {
-			title: "Choisir le mode de sélection",
-			content: "Vous avez trois options. Le bouton <strong>Global</strong> sélectionne le plateau entier, et toute pierre sur le plateau est prise en compte. Le bouton <strong>Local</strong> sélectionne la zone locale aux pierres. Très pratique pour chercher des joseki. La troisième option est une <strong>sélection manuelle</strong> - vous pouvez sélectionner la partie du plateau qui vous intéresse, cliquez simplement sur le plateau et glissez le curseur."
+			title: 'Choisir le mode de sélection',
+			content: 'Vous avez trois options. Le bouton <strong>Global</strong> sélectionne le plateau entier, et toute pierre sur le plateau est prise en compte. Le bouton <strong>Local</strong> sélectionne la zone locale aux pierres. Très pratique pour chercher des joseki. La troisième option est une <strong>sélection manuelle</strong> - vous pouvez sélectionner la partie du plateau qui vous intéresse, cliquez simplement sur le plateau et glissez le curseur.'
 		},
 		filter: {
-			title: "Précisez la recherche",
-			content: "Vous pouvez restreindre votre recherche à des parties récentes. Si vous sélectionnez <strong>Parties modernes</strong>, une position sera seulement cherchée dans les parties de pro jouées depuis 21<sup>e</sup> siècle. L'option <strong>Parties récentes</strong> réduit encore le champ de recherche à 1 an."
+			title: 'Précisez la recherche',
+			content: 'Vous pouvez restreindre votre recherche à des parties récentes. Si vous sélectionnez <strong>Parties modernes</strong>, une position sera seulement cherchée dans les parties de pro jouées depuis 21<sup>e</sup> siècle. L\'option <strong>Parties récentes</strong> réduit encore le champ de recherche à 1 an.'
 		},
 		board: {
-			title: "Choisir la position",
-			content: "En <strong>cliquant</strong> sur le plateau, vous pouvez choisir la position souhaitée. Après chaque clic, l'outil de recherche trouvera toutes les occurrences de la position parmi les parties de pro. Vous pouvez aussi maintenir la touche <kbd>shift</kbd> (ou <kbd>ctrl</kbd>) en cliquant pour placer directement une pierre noire (ou blanche)."
+			title: 'Choisir la position',
+			content: 'En <strong>cliquant</strong> sur le plateau, vous pouvez choisir la position souhaitée. Après chaque clic, l\'outil de recherche trouvera toutes les occurrences de la position parmi les parties de pro. Vous pouvez aussi maintenir la touche <kbd>shift</kbd> (ou <kbd>ctrl</kbd>) en cliquant pour placer directement une pierre noire (ou blanche).'
 		},
 		continuations: {
-			title: "Continuations trouvées",
-			content: "Dans ce tableau, vous pouvez voir une liste des continuations jouées en parties professionnelles. Vous pouvez aussi voir quelques statistiques, plus le taux de victoire est élevé plus le coup a de succès."
+			title: 'Continuations trouvées',
+			content: 'Dans ce tableau, vous pouvez voir une liste des continuations jouées en parties professionnelles. Vous pouvez aussi voir quelques statistiques, plus le taux de victoire est élevé plus le coup a de succès.'
 		},
 		games: {
-			title: "Parties similaires",
-			content: "<p>Dans ce tableau, vous pouvez voir une liste des parties contenant la position cherchée. Cliquez sur l'une d'elle pour voir votre position dans la partie. Vous pouvez alors la rejouer sur le petit plateau en utilisant la roulette de la souris, ou sur un grand plateau qui s'ouvrira après avoir tapoté le petit plateau. Pour des raisons de performance, il n'y a que 50 parties au maximum.</p><p>Essayez maintenant de cliquer sur %{icon} en haut à droite.</p>"
+			title: 'Parties similaires',
+			content: '<p>Dans ce tableau, vous pouvez voir une liste des parties contenant la position cherchée. Cliquez sur l\'une d\'elle pour voir votre position dans la partie. Vous pouvez alors la rejouer sur le petit plateau en utilisant la roulette de la souris, ou sur un grand plateau qui s\'ouvrira après avoir tapoté le petit plateau. Pour des raisons de performance, il n\'y a que 50 parties au maximum.</p><p>Essayez maintenant de cliquer sur %{icon} en haut à droite.</p>'
 		},
 		statistics: {
-			title: "Statistiques",
-			content: "<p>Dans cette colonne, vous pouvez voir plusieurs statistiques pour la position actuelle.</p><p>Essayez maintenant de cliquer sur %{icon} en haut à droite.</p>"
+			title: 'Statistiques',
+			content: '<p>Dans cette colonne, vous pouvez voir plusieurs statistiques pour la position actuelle.</p><p>Essayez maintenant de cliquer sur %{icon} en haut à droite.</p>'
 		},
 		games_button: {
-			title: "Parties similaires",
-			content: "Cliquez sur ce bouton pour voir les parties similaires. Vous pourrez aussi les rejouer."
+			title: 'Parties similaires',
+			content: 'Cliquez sur ce bouton pour voir les parties similaires. Vous pourrez aussi les rejouer.'
 		},
 		control: {
 			title: "Boutons de contrôle",
@@ -195,12 +195,12 @@
 			auto: "Activer/désactiver la recherche automatique. Si coché, la recherche démarrera automatiquement après chaque coup. Décochez cette option si vous souhaitez simplement essayer votre variation sur le plateau."
 		},
 		share: {
-			title: "Partager la recherche",
-			content: "En cliquant sur ce bouton, votre recherche est sauvegardée et vous pourrez la partager avec vos amis sur Facebook, Twitter et tout autre réseau social de djeunz."
+			title: 'Partager la recherche',
+			content: 'En cliquant sur ce bouton, votre recherche est sauvegardée et vous pourrez la partager avec vos amis sur Facebook, Twitter et tout autre réseau social de djeunz.'
 		},
 		fb_like: {
-			title: "Aimer",
-			content: "Si vous aimez l'outil de recherche Waltheri de positions de go, ça me ferait plaisir si vous l'aimiez sur Facebook et le partagiez avec vos amis.",
+			title: 'Aimer',
+			content: 'Si vous aimez l\'outil de recherche Waltheri de positions de go, ça me ferait plaisir si vous l\'aimiez sur Facebook et le partagiez avec vos amis.',
 		}
 	},
 	
@@ -259,7 +259,7 @@
 		player_info: {
 			na: "Nous ne savons actuellement rien à propos de <strong>%{player}</strong>. <a href='#'>Apprenez</a> comment ajouter des infos.",
 			loading: "Chargement des infos...",
-			//origin: "Ce texte provient de <a href=\"%{link}\">%{name}</a>. Vous pourrez y trouver plus d'informations ou le modifier."
+			origin: "Ce texte provient de <a href=\"%{link}\">%{name}</a>. Vous pourrez y trouver plus d'informations ou le modifier."
 		},
 		browser: {
 			more_between: "Plus de parties entre <strong>%{player1}</strong> et <strong>%{player2}</strong>",
