@@ -220,7 +220,7 @@
 		},
 		javascript: {
 			title: "Oh snap! An error occured in the application.",
-			text: "<p>If you would like to help to solve it, plese send information about how it happend and the following message on this email: thebestgoplayer@gmail.com.</p><pre>%{stack}</pre>"
+			text: "<p>If you would like to help to solve it, please send information about how it happend and the following message on this email: thebestgoplayer@gmail.com.</p><pre>%{stack}</pre>"
 		}
 	},
 	
