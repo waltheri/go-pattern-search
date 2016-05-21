@@ -36,7 +36,7 @@
 		modern: "Partite moderne",
 		new: "Partite recenti",
 		tooltips: {
-			button: "Search in",
+			button: "Cerca in",
 			all: "Cerca in tutto il database",
 			modern: "Partite dall'anno 2000 in poi",
 			new: "Partite non più vecchie di un anno"
@@ -113,7 +113,7 @@
 		score_help: "Clicca sulla pietre per segnarle come morte o come vive. Puoi anche aggiungere/sottrarre i punti territorio cliccando su di essi. I territori debbono essere completamente chiusi per essere conteggiati.",
 		share: "Share",
 		pernament_link: "Permanent link",
-		share_twitter_text: "Check this game between %{black} and %{white}!",
+		share_twitter_text: "Guarda questa partita tra %{black} and %{white}!",
 		download: "Download SGF",
 		tooltips: {
 			first: "Prima mossa",
@@ -240,45 +240,45 @@
 	// database section
 	db: {
 		sections: {
-			recent: "Recently added",
-			players: "Browse by players",
-			advanced: "Advanced search"
+			recent: "Ordine cronologico",
+			players: "Elenco giocatori",
+			advanced: "Ricerca avanzata"
 		},
 		game_list: {
-			title: "Games",
-			count: "(%{count}&nbsp;game) |||| (%{count}&nbsp;games)",
-			load_more: "Load more games",
-			list_view: "List view",
-			tile_view: "Tile view",
-			table_view: "Table view",
-			recent: "Recent games",
-			advanced: "Advanced search",
-			replay_game: "Replay game",
-			download_sgf: "Download game as SGF"
+			title: "Partite",
+			count: "(%{count}&nbsp;partita) |||| (%{count}&nbsp;partite)",
+			load_more: "Altre partite",
+			list_view: "Lista",
+			tile_view: "Griglia",
+			table_view: "Elenco",
+			recent: "Partite recenti",
+			advanced: "Ricerca avanzata",
+			replay_game: "Guarda partita",
+			download_sgf: "Scarica SGF"
 		},
 		player_info: {
-			na: "Currently we don't know anything about <strong>%{player}</strong>. <a href='#'>Learn</a> how to add some info.",
-			loading: "Loading info...",
-			origin: "This text comes from <a href=\"%{link}\">%{name}</a>. You can find more info there or edit it."
+			na: "Al momento non ci sono informazioni su <strong>%{player}</strong>. <a href='#'>Scopri</a> come aggiungerne.",
+			loading: "Caricamento informazioni...",
+			origin: "Questo testo viene da <a href=\"%{link}\">%{name}</a>. Seguendo il link puoi trovare altre informazioni o modificarle."
 		},
 		browser: {
-			more_between: "More games between <strong>%{player1}</strong> and <strong>%{player2}</strong>",
-			more: "More games of <strong>%{player}</strong>"
+			more_between: "Altre partite tra <strong>%{player1}</strong> e <strong>%{player2}</strong>",
+			more: "Altre partite di <strong>%{player}</strong>"
 		},
 		players: {
-			title: "List of players"
+			title: "Elenco giocatori"
 		},
 		filter: {
-			player1: "Player 1",
-			player2: "Player 2",
-			older_than: "Older than %{year}",
-			newer_than: "%{year} - present",
-			black_won: "Black won",
-			white_won: "White won",
-			black_half: "B + 0.5",
-			white_half: "W + 0.5",
-			black_res: "B + Res",
-			white_res: "W + Res",
+			player1: "Giocatore 1",
+			player2: "Giocatore 2",
+			older_than: "Prima del %{year}",
+			newer_than: "%{year} - presente",
+			black_won: "Nero vince",
+			white_won: "Bianco vince",
+			black_half: "N + 0.5",
+			white_half: "B + 0.5",
+			black_res: "N + Res",
+			white_res: "B + Res",
 			jigo: "Jigo"
 		}
 	},
