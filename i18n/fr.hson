@@ -1,0 +1,285 @@
+// French(fr) localization of ps.waltheri.net
+// Localized name: French
+
+{
+	// Top navigation
+	nav: {
+		pattern_search: "Chercher une position",
+		database: "Parcourir la base de données",
+		about: "A propos",
+		facebook: "Page Facebook"
+	},
+	
+	// tooltips for blue buttons in top right corner
+	menu: {
+		settings: "Paramètres",
+		share: "Partager la recherche actuelle",
+		help: "Cliquez ici si vous ne savez pas quoi faire",
+		old: "Ancienne versionne de la recherche de séquence",
+	},
+	
+	// selection group
+	selection: {
+		title: "Sélection:",
+		full: "Global",
+		around: " Local",
+		tooltips: {
+			full: " Sélection sur le plateau entier",
+			around: "Sélection locale aux pierres jouées"
+		}
+	},
+	
+	// filter (search in) group
+	filter: {
+		title: "Chercher dans :",
+		all: "Toutes les parties",
+		modern: "Parties modernes",
+		new: "Parties récentes",
+		tooltips: {
+			button: "Parties où chercher",
+			all: "Base de données complète",
+			modern: "Parties jouées depuis l'année 2000",
+			new: "Parties jouées il y a moins d'un an"
+		}
+	},
+	
+	// big blue control buttons
+	control: {
+		title: "Contrôles de la recherche :",
+		clear: "Effacer",
+		undo: "Annuler",
+		redo: "Refaire",
+		search_w: "Chercher&nbsp;B",
+		search_b: "Chercher&nbsp;N",
+		tooltips: {
+			clear: "Effacer la position",
+			undo: "Annuler le dernier coup",
+			redo: "Rejouer le coup",
+			search_w: "Trouver les continuations pour blanc",
+			search_b: "Trouver les continuations pour noir",
+			auto: "Recherche automatique",
+			stop: "Arrêter la recherche"
+		}
+	},
+	
+	// continuation block
+	continuations: {
+		title: "Continuations trouvées",
+		caption: "%{games} parties de pro trouvées en %{time} s",
+		games: "Nombre de parties",
+		winrate: "Taux de victoire"
+	},
+	
+	// matching games block
+	games: {
+		title: "Parties similaires",
+		caption: "Affiche %{smart_count} occurrence issue de %{games} partie |||| Affiche %{smart_count} occurrences issues de %{games} parties",
+		year: "Année",
+		tip: "Sélectionner une partie ci-dessus pour la regarder.",
+		black: "Noir",
+		white: "Blanc",
+		back: "Retour à la recherche"
+	},
+	
+	// statistics block
+	statistics: {
+		title: "Statistiques de la position",
+		caption: " Statistiques avancées pour la position actuelle",
+		probability: "Probabilité de victoire",
+		popularity: "Popularité",
+		black_wins: "Dans cette position, noir a réussi à gagner %{count} partie, |||| Dans cette position, noir a réussi à gagner %{count} parties,", // this string and the 'statistics.white_wins' string are rendered in row (divided by space)
+		white_wins: "blanc a gagné %{count} partie. |||| blanc a gagné %{count} parties.",
+		popularity_desc: "Ce graphique présente la popularité de cette position selon les années.",
+		lost: "Victoires",
+		won: "Défaites",
+		unknown: "Résultat inconnu",
+		games: "Parties jouées",
+		popularity_na: "Rechercher une nouvelle fois pour charger le graphique. |||| Rechercher ±%{smart_count} fois de plus pour charger le graphique."
+	},
+	
+	// kifu player and info
+	player: {
+		title: "Rejouer la partie",
+		edit_mode: "Mode d'édition",
+		score_mode: "Mode de score",
+		coordinates: "Activer les coordonnées",
+		about: "A propos de ce lecteur",
+		about_desc: "Ce lecteur de sgf/kifu est basé sur la bibliothèque <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a>. Elle est facile à utiliser et vous pouvez l'intégrer à votre site web. Même que c'est elle la meilleure !", // write some pretty advert for me in your language :-)
+		game_info: "Informations de la partie",
+		date: "Date",
+		event: "Événement",
+		komi: "Komi",
+		result: "Résultat",
+		score_help: "Cliquer sur les pierres pour les marquer comme vivantes ou mortes. Vous pouvez aussi définir ou non les points de territoire en cliquant dessus. Les territoires doivent être entièrement délimités.",
+		share: "Partager",
+		pernament_link: "Lien permanent",
+		share_twitter_text: "Jetez un oeil à cette partie entre %{black} et %{white} !",
+		download: "Télécharger le SGF",
+		tooltips: {
+			first: "Premier coup",
+			previous: "Coup précédent",
+			move_number: "Numéro du coup / Aller au coup",
+			next: "Prochain coup",
+			last: "Dernier coup",
+			menu: "Menu"
+		},
+	},
+	
+	// settings modal dialog 
+	settings: {
+		title: "Paramètres",
+		board: "Plateau :",
+		coordinates: "Afficher les coordonnées du plateau",
+		plots: "Graphiques :",
+		continuation_plot: "Afficher le graphique des continuations",
+		language: "Langue :",
+		language_auto: "Détecter automatiquement",
+		other: "Autre :",
+		sound: "Jouer un son quand un coup est joué",
+		litemode: "Mode Lite",
+		litemode_desc: "(pour de meilleures performances)",
+		save: "Sauvegarder les changements"
+	},
+	
+	// share modal dialog
+	share: {
+		title: "Partager la recherche actuelle",
+		text: "Position sur l\'outil de recherche Waltheri de positions de go", // traduction pourrie
+		link: "Lien de la recherche :",
+		html: "HTML :",
+		social: "Partager sur les réseaux sociaux :",
+		facebook: "Partager sur Facebook",
+		twitter: "Partager sur Twitter",
+		twitter_text: "Jetez un oeil à cette position !",
+		copy_confirm: "Copié !",
+		error: "Une erreur est survenue, le service de partage ne fonctionne plus pour le moment."
+	},
+	
+	// help popovers
+	help: {
+		selection: {
+			title: 'Choisir le mode de sélection',
+			content: 'Vous avez trois options. Le bouton <strong>Global</strong> sélectionne le plateau entier, et toute pierre sur le plateau est prise en compte. Le bouton <strong>Local</strong> sélectionne la zone locale aux pierres. Très pratique pour chercher des joseki. La troisième option est une <strong>sélection manuelle</strong> - vous pouvez sélectionner la partie du plateau qui vous intéresse, cliquez simplement sur le plateau et glissez le curseur.'
+		},
+		filter: {
+			title: 'Précisez la recherche',
+			content: 'Vous pouvez restreindre votre recherche à des parties récentes. Si vous sélectionnez <strong>Parties modernes</strong>, une position sera seulement cherchée dans les parties de pro jouées depuis 21<sup>e</sup> siècle. L\'option <strong>Parties récentes</strong> réduit encore le champ de recherche à 1 an.'
+		},
+		board: {
+			title: 'Choisir la position',
+			content: 'En <strong>cliquant</strong> sur le plateau, vous pouvez choisir la position souhaitée. Après chaque clic, l\'outil de recherche trouvera toutes les occurrences de la position parmi les parties de pro. Vous pouvez aussi maintenir la touche <kbd>shift</kbd> (ou <kbd>ctrl</kbd>) en cliquant pour placer directement une pierre noire (ou blanche).'
+		},
+		continuations: {
+			title: 'Continuations trouvées',
+			content: 'Dans ce tableau, vous pouvez voir une liste des continuations jouées en parties professionnelles. Vous pouvez aussi voir quelques statistiques, plus le taux de victoire est élevé plus le coup a de succès.'
+		},
+		games: {
+			title: 'Parties similaires',
+			content: '<p>Dans ce tableau, vous pouvez voir une liste des parties contenant la position cherchée. Cliquez sur l\'une d\'elle pour voir votre position dans la partie. Vous pouvez alors la rejouer sur le petit plateau en utilisant la roulette de la souris, ou sur un grand plateau qui s\'ouvrira après avoir tapoté le petit plateau. Pour des raisons de performance, il n\'y a que 50 parties au maximum.</p><p>Essayez maintenant de cliquer sur %{icon} en haut à droite.</p>'
+		},
+		statistics: {
+			title: 'Statistiques',
+			content: '<p>Dans cette colonne, vous pouvez voir plusieurs statistiques pour la position actuelle.</p><p>Essayez maintenant de cliquer sur %{icon} en haut à droite.</p>'
+		},
+		games_button: {
+			title: 'Parties similaires',
+			content: 'Cliquez sur ce bouton pour voir les parties similaires. Vous pourrez aussi les rejouer.'
+		},
+		control: {
+			title: "Boutons de contrôle",
+			clear: "Nettoyer le plateau (toutes les recherches précédentes sur perdues)",
+			undo: "Revenir à recherche précédente (annuler)",
+			redo: "Aller à la recherche suivante (refaire)",
+			search_w: "Trouver les continuations de blanc (et les parties similaires)",
+			search_b: "Trouver les continuations de noir",
+			auto: "Activer/désactiver la recherche automatique. Si coché, la recherche démarrera automatiquement après chaque coup. Décochez cette option si vous souhaitez simplement essayer votre variation sur le plateau."
+		},
+		share: {
+			title: 'Partager la recherche',
+			content: 'En cliquant sur ce bouton, votre recherche est sauvegardée et vous pourrez la partager avec vos amis sur Facebook, Twitter et tout autre réseau social de djeunz.'
+		},
+		fb_like: {
+			title: 'Aimer',
+			content: 'Si vous aimez l\'outil de recherche Waltheri de positions de go, ça me ferait plaisir si vous l\'aimiez sur Facebook et le partagiez avec vos amis.',
+		}
+	},
+	
+	// error messages
+	errors: {
+		timeout: {
+			title: "oh crévindieu ! La recherche a atteint la limite de temps.",
+			text: "On dirait que le serveur a beaucoup de travail. Essayez à nouveau dans quelques instants."
+		},
+		offline: {
+			title: "Oh cornegidouille ! La recherche a échoué.",
+			text: "On dirait que vous êtes hors ligne. Vérifiez votre connexion internet et réessayez."
+		},
+		other: {
+			title: "Oh saperlipopette ! La recherche a échoué.",
+			text: "Il y a sûrement une erreur temporaire côté serveur. Cependant si ce message continue à s'afficher, ou ne s'affiche que pour la position actuelle, merci d'envoyer un message à cette adresse e-mail : thebestgoplayer@gmail.com."
+		},
+		javascript: {
+			title: "Oh ventre-saint-gris ! Une erreur s'est produite dans l'application.",
+			text: "<p>Si vous souhaitez aider à la résoudre, merci d'envoyer des précisions sur la façon dont elle s'est produite ainsi que le message suivant à cette adresse e-mail : thebestgoplayer@gmail.com.</p><pre>%{stack}</pre>"
+		}
+	},
+	
+	plots: {
+		error: "Le graphique n'a pas pu se charger.",
+		loading: "Chargement du graphique de la mort qui tue..."
+	},
+	
+	// general stuff used on multiple places
+	general: {
+		close: "Fermer",
+		na: "indisponible",
+		back: "Retour",
+		next: "Suivant"
+	},
+	
+	// database section
+	db: {
+		sections: {
+			recent: "Ajouté récemment",
+			players: "Parcourir par joueur",
+			advanced: "Recherche avancée"
+		},
+		game_list: {
+			title: "Parties",
+			count: "(%{count}&nbsp;partie) |||| (%{count}&nbsp;parties)",
+			load_more: "Charger plus de parties",
+			list_view: "Vue liste",
+			tile_view: "Vue tuiles",
+			table_view: "Vue tableau",
+			recent: "Parties récentes",
+			advanced: "Recherche avancée",
+			replay_game: "Rejouer la partie",
+			download_sgf: "Télécharger la partie en SGF"
+		},
+		player_info: {
+			na: "Nous ne savons actuellement rien à propos de <strong>%{player}</strong>. <a href='#'>Apprenez</a> comment ajouter des infos.",
+			loading: "Chargement des infos...",
+			origin: "Ce texte provient de <a href=\"%{link}\">%{name}</a>. Vous pourrez y trouver plus d'informations ou le modifier."
+		},
+		browser: {
+			more_between: "Plus de parties entre <strong>%{player1}</strong> et <strong>%{player2}</strong>",
+			more: "Plus de parties de <strong>%{player}</strong>"
+		},
+		players: {
+			title: "Liste des joueurs"
+		},
+		filter: {
+			player1: "Joueur 1",
+			player2: "Joueur 2",
+			older_than: "Plus vieux que %{year}",
+			newer_than: "%{year} - présent",
+			black_won: "Noir a gagné",
+			white_won: "Blanc a gagné",
+			black_half: "N + 0.5",
+			white_half: "B + 0.5",
+			black_res: "N + Res",
+			white_res: "B + Res",
+			jigo: "Jigo"
+		}
+	},
+}
