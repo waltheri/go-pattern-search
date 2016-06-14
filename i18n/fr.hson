@@ -15,7 +15,7 @@
 		settings: "Paramètres",
 		share: "Partager la recherche actuelle",
 		help: "Cliquez ici si vous ne savez pas quoi faire",
-		old: "Ancienne versionne de la recherche de séquence",
+		old: "Ancienne version de la recherche de séquence",
 	},
 	
 	// selection group
