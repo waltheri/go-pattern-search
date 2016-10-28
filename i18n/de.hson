@@ -1,0 +1,285 @@
+// German(de) localization of ps.waltheri.net
+// Localized name: Deutsch
+
+{
+	// Top navigation
+	nav: {
+		pattern_search: "Pattern Suche",
+		database: "Datenbank durchschauen",
+		about: "Über",
+		facebook: "Facebook Seite"
+	},
+
+	// tooltips for blue buttons in top right corner
+	menu: {
+		settings: "Einstellungen",
+		share: "Aktuelle Suche teilen",
+		help: "Klick hier, wenn du nicht weißt, was zu tun ist",
+		old: "Alte Version der Pattern Suche",
+	},
+
+	// selection group
+	selection: {
+		title: "Auswahl:",
+		full: "Ganzes Brett",
+		around: "Lokale Situation",
+		tooltips: {
+			full: "Auswahl des gesamten Brettes",
+			around: "Auswahl von lokalen Situationen"
+		}
+	},
+
+	// filter (search in) group
+	filter: {
+		title: "Suche in:",
+		all: "Allen Spielen",
+		modern: "Modernen Spielen",
+		new: "Neuen Spielen",
+		tooltips: {
+			button: "Suche in",
+			all: "Suche in der gesamten Datenbank",
+			modern: "Alle Spiele seit dem Jahr 2000",
+			new: "Spiele, die nicht älter als ein Jahr sind"
+		}
+	},
+
+	// big blue control buttons
+	control: {
+		title: "Suchkontrolle:",
+		clear: "Zurücksetzen",
+		undo: "Zurück",
+		redo: "Vor",
+		search_w: "Such&nbsp;W",
+		search_b: "Such&nbsp;S",
+		tooltips: {
+			clear: "Die Position zurücksetzen",
+			undo: "Schritt zurück",
+			redo: "Schritt vor",
+			search_w: "Finde die Fortsetzung für Weiß",
+			search_b: "Finde die Fortsetzung für Schwarz",
+			auto: "Automatische Suche",
+			stop: "Suche beenden"
+		}
+	},
+
+	// continuation block
+	continuations: {
+		title: "Gefundene Fortsetzungen",
+		caption: "%{games} Pro-Spiele in %{time} Sek. durchschucht",
+		games: "Anzahl der Spiele",
+		winrate: "Gewinnquote"
+	},
+
+	// matching games block
+	games: {
+		title: "Passende Spiele",
+		caption: "Zeige %{smart_count} Ergebnis von %{games} Spiel |||| Zeige %{smart_count} Ergebnisse von %{games} Spielen",
+		year: "Jahr",
+		tip: "Wähle eines der aufgelisteten Spiele, um es anzuzeigen",
+		black: "Schwarz",
+		white: "Weiß",
+		back: "Zurück zur Suche"
+	},
+
+	// statistics block
+	statistics: {
+		title: "Statistiken zur Position",
+		caption: "Erweiterte Statistiken zur aktuellen Position",
+		probability: "Gewinnwahrscheinlichkeit",
+		popularity: "Popularität",
+		black_wins: "In dieser Position konnte schwarz %{count} Spiel gewinnen, |||| In dieser Position konnte schwarz %{count} Spiele gewinnen,", // this string and the 'statistics.white_wins' string are rendered in row (divided by space)
+		white_wins: "Weiß gewann %{count} Spiel. |||| Weiß gewann %{count} Spiele.",
+		popularity_desc: "Diese Grafik zeigt die Popularität dieser Position im Verlauf der Jahre.",
+		lost: "Verlorene Spiele",
+		won: "Gewonnene Spiele",
+		unknown: "Unbekanntes Ergebnis",
+		games: "Gespiele Spiele",
+		popularity_na: "Suche erneut, um eine neue Grafik zu erzeugen. |||| Suche erneut ±%{smart_count} mal, um eine neue Grafik zu erzeugen."
+	},
+
+	// kifu player and info
+	player: {
+		title: "Replay the game",
+		edit_mode: "Bearbeiten Modus",
+		score_mode: "Zähle Modus",
+		coordinates: "Koordinaten an-/ausschalten",
+		about: "Über diesen Viewer",
+		about_desc: "Dieser SGF / Go-Kifu Viewer basiert auf der <a href=\"http://wgo.waltheri.net\" target=\"_blank\">WGo.js</a> Library. Diese lässt sich auch einfach in deine Webseite integrieren.", // write some pretty advert for me in your language :-)
+		game_info: "Spielinformationen",
+		date: "Datum",
+		event: "Veranstaltung",
+		komi: "Komi",
+		result: "Ergebnis",
+		score_help: "Klicke auf die Steine, um sie als tot oder lebendig zu markieren. You can also set and unset territory points by clicking on them. Territories must be completely bordered.",
+		share: "Teilen",
+		pernament_link: "Dauerhafter Link",
+		share_twitter_text: "Schau dir dieses Spiel zwischen %{black} und %{white} an!",
+		download: "SGF runterladen",
+		tooltips: {
+			first: "Erster Zug",
+			previous: "Vorheriger Zug",
+			move_number: "Aktueller Zug / Spring zum Zug",
+			next: "Nächster Zug",
+			last: "Letzter Zug",
+			menu: "Menü"
+		},
+	},
+
+	// settings modal dialog
+	settings: {
+		title: "Einstellungen",
+		board: "Brett:",
+		coordinates: "Zeige Brett Koordinaten",
+		plots: "Grafiken:",
+		continuation_plot: "Zeigte Fortsetzungsgrafik",
+		language: "Sprache:",
+		language_auto: "Automatisch",
+		other: "Sonstige:",
+		sound: "Spiele einen Sound, wenn ein Stein plaziert wird",
+		litemode: "Lite Modus",
+		litemode_desc: "(für bessere Leistung)",
+		save: "Änderungen speichern"
+	},
+
+	// share modal dialog
+	share: {
+		title: "Aktuelle Suche teilen",
+		text: "Position on Waltheri's go pattern search",
+		link: "Link zu der Suche:",
+		html: "HTML:",
+		social: "Auf sozialen Seiten teilen:",
+		facebook: "Auf Facebook teilen",
+		twitter: "Auf Twitter teilen",
+		twitter_text: "Schau dir diese Position an!",
+		copy_confirm: "Kopiert!",
+		error: "Es gab einen Fehler, teilen ist zur Zeit nicht möglich!"
+	},
+
+	// help popovers
+	help: {
+		selection: {
+			title: 'Wähle einen Auswahl-Modus',
+			content: 'Du hast drei Optionen. Der <strong>Komplettes Brett</strong> Button zeigt dir das ganze Brett an, so dass jedes Feld und jeder Stein auf dem Brett zählen. <strong>Umgebende Steine</strong> wählt nur die Steine in einem ausgewählten Bereich aus. Dies ist nützlich, wenn du ein Joseki nachschlagen möchtest. Die drite Option ist die <strong>manuelle Auswahl</strong> - du kannst jede Stelle von Brett aussuchen die du möchtest, klicke einfach auf die Stelle und ziehe mit der Maus über den Bereich der dich interessiert..'
+		},
+		filter: {
+			title: 'Specify search',
+			content: 'Du kannst die Suchergebnisse auf Spiele eines bestimmten Alters einschränken. Wenn du <strong>Moderne Spiele</strong> auswählst, wird die Position nur in Pro-Spielen aus dem 21. Jahrhundert durchsucht. Die Option<strong>Neue Spiele</strong> schränkt die Suchergebnisse weiter ein.'
+		},
+		board: {
+			title: 'Position vorbereiten',
+			content: 'Durch <strong>klicken</strong> auf das Brett kannst du die Spielsituation aufbauen, die du haben möchtest. Nach jedem klicken sucht die Pattern Suche die gleiche Position in professionellen Go-Partien. Du kannst auch die <kbd>Shift-</kbd> (bzw. <kbd>STRG</kbd>) Taste während des klicken gedrückt halten um schwarze (bzw. weiße) Steine zu setzen.'
+		},
+		continuations: {
+			title: 'Finde Fortsetzung',
+			content: 'In dieser Tabelle siehst du eine Liste von Fortsetzungen, die in Profi-Spielen gespielt wurden. Du findest auch einige Statistiken und Gewinnrate für den erfolgreichsten Zug.'
+		},
+		games: {
+			title: 'Passende Spiele',
+			content: '<p>In dieser Tabelle findest du eine Liste von Spielen, die die aktuelle Position enthalten. Klicke darauf, um die Position in dem Spiel zu sehen. Dann kann du die Partie auf dem kleinen Brett nachspielen, indem du das Mausrad benutzt oder auf dem großen Brett nachspielen, nachdem du es durch einen klick auf as kleine Brett geöffnet hast. Aus Leistungsgründen werden maximal 50 Spiele angezeigt.</p><p>Klicke nun auf %{icon} in der rechten oberen Ecke.</p>'
+		},
+		statistics: {
+			title: 'Statistiken',
+			content: '<p>In dieser Spalte siehst du einige Statistiken zur aktuellen Position.</p><p>Klicke auf %{icon} in der oberen rechten Ecke.</p>'
+		},
+		games_button: {
+			title: 'Passende Spiele',
+			content: 'Klicke den Button, um passende Spiele anzuzeigen. Du kannst diese auch nachspielen.'
+		},
+		control: {
+			title: "Kontrolle",
+			clear: "Brett leeren (Alle vorherigen Suchen gehen dadurch verloren)",
+			undo: "Schritt zurück (Zurücknehmen)",
+			redo: "Schritt vor (Wiederholen)",
+			search_w: "Finde die Fortsetzung für Weiß (und passende Spiele)",
+			search_b: "Finde die Fortsetzung für Schwarz",
+			auto: "Aktiviere/Deaktiviere die automatische Suche. Wenn angehakt, beginnt die Suche automatisch nach jedem Zug. Bitte diese Option abwählen, wenn du deine Variationen auf dem Brett ausprobierst."
+		},
+		share: {
+			title: 'Teile deine Suche',
+			content: 'Wenn du auf diesen Button klickst, wird deine Suche gespeichert und du kannst diese mit deinen Freunden auf Facebook, Twitter oder was auch immer die Kids heute nutzen teilen.'
+		},
+		fb_like: {
+			title: 'Like it',
+			content: 'Wenn dir Waltheri\'s Go Pattern Suche gefällt, würde ich mich freuen, wenn du uns auf Facebook folgst und es mit deinen Freunden teilst.',
+		}
+	},
+
+	// error messages
+	errors: {
+		timeout: {
+			title: "Verdammt! Suche konnte nicht abgeschlossen werden (Timeout)",
+			text: "Der Server steht unter großer Belastung. Versuch es gleich nochmal."
+		},
+		offline: {
+			title: "Verdammt! Suche fehlgeschlagen",
+			text: "Du scheinst offline zu sein. Check deine Internetverbindung und versuchs nochmal."
+		},
+		other: {
+			title: "Verdammt! Suche fehlgeschlagen",
+			text: "Es gibt möglicherweise einen Fehler auf Seiten des Servers. Sollte der Fehler jedoch häufiger auftauchen, oder nur in der aktuellen Position, dann sende und eine Nachricht an diese Email-Adresse: thebestgoplayer@gmail.com."
+		},
+		javascript: {
+			title: "Verdammt! Fehler in der Applikation",
+			text: "<p>Wenn du uns helfen möchtest den Fehler zu finden, sende uns Informationen wie es zum Fehler kommen konnte mit der folgenden Nachricht an diese Email-Adresse: thebestgoplayer@gmail.com.</p><pre>%{stack}</pre>"
+		}
+	},
+
+	plots: {
+		error: "Grafik konnte nicht geladen werden",
+		loading: "Lade coole Grafik..."
+	},
+
+	// general stuff used on multiple places
+	general: {
+		close: "Schließen",
+		na: "nicht verfügbar",
+		back: "Zurück",
+		next: "Weiter"
+	},
+
+	// database section
+	db: {
+		sections: {
+			recent: "Kürzlich hinzugefügt",
+			players: "Nach Spielern durchsuchen",
+			advanced: "Erweiterte Suche"
+		},
+		game_list: {
+			title: "Spiele",
+			count: "(%{count}&nbsp;game) |||| (%{count}&nbsp;games)",
+			load_more: "Weitere Spiele Laden",
+			list_view: "Listenansicht",
+			tile_view: "Kachelansicht",
+			table_view: "Tabellenansicht",
+			recent: "Kürzlich hinzugefügt",
+			advanced: "Erweiterte Suche",
+			replay_game: "Spiel nachspielen",
+			download_sgf: "Spiel als SGF runterladen"
+		},
+		player_info: {
+			na: "Zur Zeit wissen wir nichts über <strong>%{player}</strong>. <a href='#'>Lern</a> wie du Infos hinzufügen kannst.",
+			loading: "Infos werden geladen",
+			origin: "Dieser Text kommt von <a href=\"%{link}\">%{name}</a>. Dort findest du weitere Informationen und kannst sie bearbeiten."
+		},
+		browser: {
+			more_between: "Mehr Spiele zwischen <strong>%{player1}</strong> und <strong>%{player2}</strong>",
+			more: "Mehr Spiele von <strong>%{player}</strong>"
+		},
+		players: {
+			title: "Liste der Spieler "
+		},
+		filter: {
+			player1: "Spieler 1",
+			player2: "Spieler 2",
+			older_than: "Älter als %{year}",
+			newer_than: "%{year} bis heute",
+			black_won: "Schwarz hat gewonnen",
+			white_won: "Weiß hat gewonnen",
+			black_half: "S + 0.5",
+			white_half: "W + 0.5",
+			black_res: "S + Res",
+			white_res: "W + Res",
+			jigo: "Jigo"
+		}
+	},
+}
